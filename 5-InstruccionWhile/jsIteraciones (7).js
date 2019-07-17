@@ -4,9 +4,9 @@ function mostrar()
 	var contador=0;
 	var acumulador=0;
 	var respuesta='si';
-    var numero;
+    var numero= 0;
 
-while (contador= 'si'){
+while (respuesta== 'si'){
 
 numero = parseInt(prompt ("Ingrese un numero"));
 acumulador = acumulador + numero;
