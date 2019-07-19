@@ -25,13 +25,13 @@ if (numero < minimo || flag == 0)
 {
 	 minimo = numero;
 
-	 flag = 1;
+	 flag = 1;}
 respuesta = prompt ("Quiere seguir ingresando numero ? s/n"); 
 
-	}}
+	}
 
 
-while (respuesta="s");
+while (respuesta=="s");
 
 
 

@@ -31,10 +31,12 @@ else { positivo = positivo + numero}
 
 } while (respuesta == "s");
 	
+if (contadorNegativos == "0")
+	{ negativo = 0 }
+	
 	document.getElementById("producto").value = negativo;
 	//flag == 0
-	if (contadorNegativos == 0)
-	{ negativo = 0 }
+
 	document.getElementById("suma").value = positivo;
 	
 		
